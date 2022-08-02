@@ -105,9 +105,7 @@ color: var(--primary-text-color)
 
 .nav {
     display: flex;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
     
 }
 .nav-item {
@@ -123,6 +121,9 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
+transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
